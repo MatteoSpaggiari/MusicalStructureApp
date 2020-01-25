@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemStyle">
+
+    <LinearLayout
+        android:layout_alignParentLeft="true"
+        style="@style/LayoutInfoContentStyle.SongItem">
+
+        <TextView
+            android:id="@+id/song_text_view"
+            style="@style/TextViewListItemStyle"
+            tools:text="Save me" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            style="@style/TextViewListItemStyle"
+            tools:text="Queen" />
+
+        <TextView
+            android:id="@+id/album_text_view"
+            style="@style/TextViewListItemStyle"
+            tools:text="The Game" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play_icon"
+        android:src="@drawable/play_music"
+        android:layout_alignParentRight="true"
+        style="@style/ImageViewListItemStyle" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemStyle">
+
+    <ImageView
+        android:id="@+id/album_cover"
+        tools:src="@drawable/queen_the_game"
+        style="@style/ImageViewListItemAlbumArtistStyle"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/album_cover"
+        style="@style/LayoutInfoContentStyle">
+
+        <TextView
+            android:id="@+id/album_title"
+            tools:text="The Boy Who Knew Too Much"
+            style="@style/TextViewListItemStyle.AlbumArtist" />
+
+        <TextView
+            android:id="@+id/album_artist"
+            tools:text="Queen"
+            style="@style/TextViewListItemStyle.AlbumArtist.OtherFields" />
+
+        <TextView
+            android:id="@+id/album_number_songs"
+            tools:text="10 songs"
+            style="@style/TextViewListItemStyle.AlbumArtist.OtherFields" />
+
+        <TextView
+            android:id="@+id/album_year_publication"
+            tools:text="1980"
+            style="@style/TextViewListItemStyle.AlbumArtist.OtherFields" />
+
+    </LinearLayout>
+
+</RelativeLayout>

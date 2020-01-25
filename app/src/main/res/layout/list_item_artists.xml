@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemStyle">
+
+    <ImageView
+        android:id="@+id/artist_image"
+        tools:src="@drawable/queen"
+        style="@style/ImageViewListItemAlbumArtistStyle"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/artist_image"
+        style="@style/LayoutInfoContentStyle">
+
+        <TextView
+            android:id="@+id/artist_name"
+            tools:text="Queen"
+            style="@style/TextViewListItemStyle.AlbumArtist" />
+
+        <TextView
+            android:id="@+id/artist_year_birth"
+            tools:text="1973"
+            style="@style/TextViewListItemStyle.AlbumArtist.OtherFields" />
+
+        <TextView
+            android:id="@+id/artist_number_albums"
+            tools:text="10 albums"
+            style="@style/TextViewListItemStyle.AlbumArtist.OtherFields" />
+
+    </LinearLayout>
+
+</RelativeLayout>

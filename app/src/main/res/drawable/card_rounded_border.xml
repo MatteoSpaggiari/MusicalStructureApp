@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Edge Color Card  -->
+    <stroke
+        android:width="@dimen/border_card"
+        android:color="@color/strokeCard" />
+
+    <!-- Background Color Card  -->
+    <solid
+        android:color="@color/backgroundCard"
+        />
+
+    <!-- Corner rounding Card  -->
+    <corners android:radius="@dimen/radius_card" />
+
+    <!-- Padding Card  -->
+    <padding
+        android:left="@dimen/default_padding"
+        android:top="@dimen/default_padding"
+        android:right="@dimen/default_padding"
+        android:bottom="@dimen/default_padding">
+    </padding>
+
+</shape>

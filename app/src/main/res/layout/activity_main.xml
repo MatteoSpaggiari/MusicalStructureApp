@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Song Card Category -->
+    <LinearLayout
+        android:id="@+id/song"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/artist"
+        app:layout_constraintRight_toLeftOf="@id/album"
+        style="@style/CardStyle">
+
+        <ImageView
+            android:id="@+id/songs_image_card"
+            android:src="@drawable/songs"
+            style="@style/ImageCardStyle" />
+
+        <TextView
+            android:text="@string/songs"
+            style="@style/TextViewCardStyle" />
+
+    </LinearLayout>
+
+    <!-- Album Card Category -->
+    <LinearLayout
+        android:id="@+id/album"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/favorite_songs"
+        app:layout_constraintLeft_toRightOf="@id/song"
+        style="@style/CardStyle">
+
+        <ImageView
+            android:id="@+id/albums_image_card"
+            android:src="@drawable/albums"
+            style="@style/ImageCardStyle" />
+
+        <TextView
+            android:text="@string/albums"
+            style="@style/TextViewCardStyle" />
+
+    </LinearLayout>
+
+    <!-- Artist Card Category -->
+    <LinearLayout
+        android:id="@+id/artist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/favorite_songs"
+        app:layout_constraintTop_toBottomOf="@id/song"
+        style="@style/CardStyle">
+
+        <ImageView
+            android:id="@+id/artists_image_card"
+            android:src="@drawable/artists"
+            style="@style/ImageCardStyle" />
+
+        <TextView
+            android:text="@string/artists"
+            style="@style/TextViewCardStyle" />
+
+    </LinearLayout>
+
+    <!-- Favorites Songs Card Category -->
+    <LinearLayout
+        android:id="@+id/favorite_songs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/artist"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/album"
+        style="@style/CardStyle">
+
+        <ImageView
+            android:id="@+id/favorite_songs_image_card"
+            android:src="@drawable/favorite_songs"
+            style="@style/ImageCardStyle" />
+
+        <TextView
+            android:text="@string/favorite_songs"
+            style="@style/TextViewCardStyle" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

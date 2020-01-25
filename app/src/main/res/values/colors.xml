@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FFAB91</color>
+    <color name="colorText">#E64A19</color>
+    <color name="backgroundCard">#FBE9E7</color>
+    <color name="strokeCard">#E64A19</color>
+    <color name="backgroundLayoutTextViewSong">#E64A19</color>
+    <color name="colorTextViewSong">#FBE9E7</color>
+</resources>

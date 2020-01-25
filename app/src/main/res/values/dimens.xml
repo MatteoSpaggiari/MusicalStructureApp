@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Width of each card item -->
+    <dimen name="card_width">120dp</dimen>
+    <!-- Height of each card item -->
+    <dimen name="card_height">150dp</dimen>
+    <!-- Default Padding  -->
+    <dimen name="default_padding">16dp</dimen>
+    <!-- Radius Card  -->
+    <dimen name="radius_card">4dp</dimen>
+    <!-- Border Card  -->
+    <dimen name="border_card">1dp</dimen>
+    <!-- Width Image Card  -->
+    <dimen name="width_image_card">46dp</dimen>
+    <!-- Height Image Card  -->
+    <dimen name="height_image_card">46dp</dimen>
+    <!-- Margin Bottom Image Card  -->
+    <dimen name="margin_bottom_image_card">16dp</dimen>
+    <!-- Width Icon Play Music  -->
+    <dimen name="width_icon_play_music">30dp</dimen>
+    <!-- Height Icon Play Music  -->
+    <dimen name="height_icon_play_music">30dp</dimen>
+    <!-- Margin TextView -->
+    <dimen name="margin_textview">2dp</dimen>
+
+    <!-- IMAGE ALBUM/ARTIST -->
+    <!-- Width Image Card album/artist -->
+    <dimen name="width_image_card_album_artist">100dp</dimen>
+    <!-- Height Image Card album/artist -->
+    <dimen name="height_image_card_album_artist">100dp</dimen>
+
+    <!-- LAYOUT SONG -->
+    <!-- Width Image Song  -->
+    <dimen name="width_icon_song">100dp</dimen>
+    <!-- Margin Icon Play Music  -->
+    <dimen name="height_icon_song">100dp</dimen>
+    <!-- Font Size TextView   -->
+    <dimen name="font_size_layout_song">18dp</dimen>
+</resources>
